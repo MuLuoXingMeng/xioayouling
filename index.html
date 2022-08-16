@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小幽灵</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<!-- tabindex 为正值表示元素可以聚焦-->
+		<div class="scene-container stars-out" tabindex="1">
+			<div class="ghost-container">
+				<div class="ghost">
+					<!-- 鬼魂的头部 -->
+					<div class="ghost-head">
+						<div class="ghost-face">
+							<!-- 眼睛 -->
+							<div class="eyes-row">
+								<div class="eye left"></div>
+								<div class="eye right"></div>
+							</div>
+							<!-- 脸的下部 -->
+							<div class="mouth-row">
+								<!-- 脸颊 -->
+								<div class="cheek left"></div>
+								<div class="mouth">
+									<div class="mouth-top"></div>
+									<div class="mouth-bottom"></div>
+								</div>
+								<div class="cheek right"></div>
+							</div>
+							
+						</div>
+					</div>
+					<!-- 身体 -->
+					<div class="ghost-body">
+						<!-- 手 -->
+						<div class="ghost-hand hand-left"></div>
+						<div class="ghost-hand hand-right"></div>
+						<!-- 裙子 -->
+						<div class="ghost-skirt">
+							<div class="pleat down"></div>
+							<div class="pleat up"></div>
+							<div class="pleat down"></div>
+							<div class="pleat up"></div>
+							<div class="pleat down"></div>
+						</div>
+					</div>
+
+
+				</div>
+
+				<!-- 装饰部分 -->
+				<div class="stars">
+					<div class="star orange star-1 pointy"><div class="star-element"></div></div>
+					<div class="star orange star-2 pointy"><div class="star-element"></div></div>
+					<div class="star yellow star-3 pointy"><div class="star-element"></div></div>
+					<div class="star yellow star-4 pointy"><div class="star-element"></div></div>
+					<div class="star blue star-5 round"><div class="star-element"></div></div>
+					<div class="star blue star-6 round"><div class="star-element"></div></div>
+				</div>
+			</div>
+
+			<!-- 阴影 -->
+			<div class="shadow-container">
+				<div class="shadow"></div>
+				<div class="shadow-bottom"></div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
